@@ -1,5 +1,9 @@
 import streamlit as st
 from dotenv import load_dotenv
+import pandas as pd
+import numpy as np
+import math
+import random
 
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
